@@ -1,0 +1,20 @@
+In YAML, you can represent multiline strings using the literal style or folded style. 
+Here's an example of each style:
+
+1. Literal Style:
+
+description: |
+  This is a multiline string
+  using the literal style.
+  It preserves line breaks and
+  leading/trailing white spaces.
+  
+  
+  2. Folded Style:
+  
+   description: >
+  This is a multiline string
+  using the folded style.
+  It removes line breaks and
+  leading/trailing white spaces.
+
