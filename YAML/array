@@ -1,0 +1,33 @@
+Arrays in YAML
+
+In YAML, Array represents a single key mapped to multiple values. 
+Each value starts with a hyphen - symbol followed by space.
+
+
+In YAML, you can represent an array of objects using a combination of lists and key-value pairs.
+Here's an example of how you can create an array of objects in YAML:
+
+- name: John
+  age: 30
+  occupation: Developer
+- name: Alice
+  age: 25
+  occupation: Designer
+- name: Bob
+  age: 35
+  occupation: Manager
+
+In this example, we have an array of objects, where each object represents a person. Each person has properties like name, age, and occupation.
+The hyphen (-) at the beginning of each block indicates that it is an element of the array.
+
+Nested objects can also be represented within the array. Here's an example:
+- name: John
+  age: 30
+  address:
+    street: 123 Main St
+    city: Anytown
+- name: Alice
+  age: 25
+  address:
+    street: 456 Elm St
+    city: Otherville
