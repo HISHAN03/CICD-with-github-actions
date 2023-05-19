@@ -1,0 +1,8 @@
+Objects in YAML
+
+YAML has two top-level elements, an object (which consists of key-value pairs) 
+and an array (which consists of an ordered set of values).
+Keys can only be strings,
+while values can be one of the following types:
+object: a collection of key-value pairs. ... 
+array: an ordered list of values, with a - preceding each item.
