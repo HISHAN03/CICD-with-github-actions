@@ -1,0 +1,7 @@
+json file doesn not support comments 
+yaml supports comments which in one advatage over json file
+#- is used to add comments in yaml file 
+   to add multi-line comments:
+#-multiline1
+#-multiline2
+#-multiline3
