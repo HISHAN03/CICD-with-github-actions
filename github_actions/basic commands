@@ -1,0 +1,45 @@
+ Example of a simple YAML file that defines a GitHub Actions workflow
+ 
+ this code is written in yaml file
+ ..............................................................................................
+ name: CI Workflow                                                
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Run tests
+      run: npm test
+...............................................................................................
+
+* The "name" field specifies the name of the workflow, which in this case is "CI Workflow".
+* The "on" field defines the event that triggers the workflow. 
+  In this example, the workflow is triggered on a push event to the main branch.
+* The "jobs" section contains one or more jobs to be executed as part of the workflow. 
+  In this case, there is a single job named "build(jobs are executed in asynchronous way)
+* Under the build job, the runs-on field specifies the type of runner to use. 
+  Here, we're using the "ubuntu-latest" runner, which runs the job on an Ubuntu-based virtual machine.
+* Inside the "steps" field, each step represents a task to be executed. 
+  The first step, named "Checkout code", uses the actions/checkout action to fetch the repository's code.
+* The second step, named "Set up Node.js", uses the actions/setup-node action to set up the Node.js environment. 
+  We specify the version of Node.js to use as '14'.
+* The next step, "Install dependencies", runs the npm install command to install the project's dependencies.
+
+Finally, the "Run tests" step executes the npm test command to run the project's tests.
