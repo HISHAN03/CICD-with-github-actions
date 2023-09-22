@@ -16,3 +16,5 @@ Instead of working in isolation, developers regularly share their work with a co
 ## In a nutshell 
 Continuous Integration is a way for developers to work together smoothly, catch mistakes early, and deliver software updates faster and with fewer bugs. It's like having a robot assistant that helps ensure the code is always in good shape.
 ## pictorial representation of a CI pipeline
+ ![CIFlow](https://github.com/HISHAN03/CICD-with-github-actions/assets/108483712/ca0d41cb-9376-48cc-8caa-785c7d36cbc7)
+
