@@ -27,3 +27,17 @@ Continuous Integration is a way for developers to work together smoothly, catch 
 ## Pictorial Representation of a CI Pipeline 🌐
 
 ![CIFlow](https://github.com/HISHAN03/CICD-with-github-actions/assets/108483712/ca0d41cb-9376-48cc-8caa-785c7d36cbc7)
+
+# CD or Continuous Delivery
+Continuous Delivery (CD) is like a well-organized system that helps software developers release new updates to their customers quickly and without errors. It works closely with Continuous Integration (CI) and focuses on making sure the software is ready for release
+Here's how it works:
+- CD comes into play after Continuous Integration has already checked the code for basic issues and merged it together
+- It sets up a staging area, which is like a test environment that's very similar to the real production environment where your software will run
+- In this staging area, CD runs various tests. These tests include integration tests (to make sure different parts of the software work together) and regression tests (to make sure new changes don't break things that were working before)
+- CD automates the process of getting your software ready for release. It's like having a robot do all the repetitive and time-consuming work.
+- The goal of CD is to always keep your software in a state where it's ready to be released. This means you can deploy it to the live production environment whenever you want.
+- CD gives control to the developer or project lead to decide when to actually release the software to customers. It's not automatic, so you can choose the right moment.
+-  There are tools available to help with Continuous Delivery, like AWS CodeDeploy, Jenkins, and GitLab. These tools make the process smoother and more efficient.
+  ## In simple terms:
+  Continuous Delivery is like having a smart system that checks your software, makes sure it works properly, and gets it ready for release whenever you say the word. It's all about delivering high-quality software to your customers without the hassle of manual work and with the flexibility to release it when it makes sense.
+  # How CI and CD work together?
