@@ -46,7 +46,7 @@ Here's how it works:
   ## Continuous Delivery (CD) 
   means the code is automatically prepared for release and tested, but a human decides when to actually release it to production
 
-# Continuous Deployment (CDep) 
+ ## Continuous Deployment (CDep) 
 means the code is not only automatically prepared and tested but is also automatically released to the production environment without anyone having to say, "Release it now."
 
 Think of Continuous Delivery as having a stop sign that requires a human to decide when to go, while Continuous Deployment is like a traffic light that automatically turns green when it's safe to proceed.
