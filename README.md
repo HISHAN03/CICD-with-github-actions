@@ -40,4 +40,13 @@ Here's how it works:
 -  There are tools available to help with Continuous Delivery, like AWS CodeDeploy, Jenkins, and GitLab. These tools make the process smoother and more efficient.
   ## In simple terms:
   Continuous Delivery is like having a smart system that checks your software, makes sure it works properly, and gets it ready for release whenever you say the word. It's all about delivering high-quality software to your customers without the hassle of manual work and with the flexibility to release it when it makes sense.
-  # How CI and CD work together?
+  ##  How CI and CD work together?
+  ![CICD](https://github.com/HISHAN03/CICD-with-github-actions/assets/108483712/b8b65baa-5e61-4305-bace-fc5dd235a815)
+
+  ## Continuous Delivery (CD) 
+  means the code is automatically prepared for release and tested, but a human decides when to actually release it to production
+
+# Continuous Deployment (CDep) 
+means the code is not only automatically prepared and tested but is also automatically released to the production environment without anyone having to say, "Release it now."
+
+Think of Continuous Delivery as having a stop sign that requires a human to decide when to go, while Continuous Deployment is like a traffic light that automatically turns green when it's safe to proceed.
